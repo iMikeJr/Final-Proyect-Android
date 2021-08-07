@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form_actualizar_cliente"
+    android:background="@drawable/degradadomodel2fondo"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:background="@drawable/newmodelactualizar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <EditText
+            android:id="@+id/FRM_actualizar_nombre_cliente"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniusere"
+            android:elevation="5dp"
+            android:hint=" Nombre"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:maxLength="15"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"
+
+            />
+
+        <EditText
+            android:id="@+id/FRM_actualizar_correo_cliente"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/minimail"
+            android:elevation="5dp"
+            android:maxLength="20"
+            android:hint=" Correo"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:soundEffectsEnabled="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"/>
+
+        <EditText
+            android:id="@+id/FRM_actualizar_edad_cliente"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniage"
+            android:elevation="5dp"
+            android:hint=" Edad"
+            android:inputType="number"
+            android:maxLength="2"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"/>
+
+        <EditText
+            android:id="@+id/FRM_actualizar__Telefono_cliente"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniphone"
+            android:elevation="5dp"
+            android:hint=" Teléfono"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"/>
+
+        <EditText
+            android:id="@+id/FRM_actualizar__ID_cliente"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniid"
+            android:elevation="5dp"
+            android:hint=" Id de cliente"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:maxLength="6"
+            android:fontFamily="@font/raleway_light"/>
+
+        <Button
+            android:id="@+id/btn_actualizar_cliente"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/formatsubmit"
+            android:fontFamily="@font/raleway_light"
+            android:inputType="number"
+            android:text="Actualizar"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form_actualizar_servicio"
+    android:orientation="vertical"
+    android:background="@drawable/degradadomodel2fondo"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:background="@drawable/newmodelactualizar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <EditText
+            android:id="@+id/FRM_actualizar_ID_servicio"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniid"
+            android:elevation="5dp"
+            android:hint=" ID servicio"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:maxLength="6"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"
+            />
+
+        <EditText
+            android:id="@+id/FRM_actualizar_ID_empleado_servicio"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniid"
+            android:elevation="5dp"
+            android:hint=" ID empleado"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="15dp"
+            android:soundEffectsEnabled="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"/>
+
+        <EditText
+            android:id="@+id/FRM_actualizar_ID_proyecto_servicio"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniid"
+            android:elevation="5dp"
+            android:hint=" ID proyecto"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"/>
+
+        <EditText
+            android:id="@+id/FRM_actualizar_variante_servicio"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/minirfc"
+            android:elevation="5dp"
+            android:hint=" Variante"
+            android:inputType="text"
+            android:maxLength="100"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:fontFamily="@font/raleway_light"/>
+
+        <EditText
+            android:id="@+id/FRM_actualizar_Descripcion_servicio"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/minirfc"
+            android:elevation="5dp"
+            android:hint=" Descripción"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:maxLength="100"
+            android:fontFamily="@font/raleway_light"/>
+
+        <Button
+            android:id="@+id/btn_actualizar_servicio"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/formatsubmit"
+            android:fontFamily="@font/raleway_light"
+            android:inputType="number"
+            android:text="Actualizar"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:padding="16dp"
+        android:layout_margin="3dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="Descripcion:"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="Variante:"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="Tiempo:"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="ID proyecto:"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/xdesc_proyecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/raleway_light"
+                    android:gravity="center_horizontal"
+                    android:padding="1dp"
+                    android:text="Descripcion proyecto"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/xvariante_proyecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/raleway_light"
+                    android:gravity="center_horizontal"
+                    android:padding="1dp"
+                    android:text="Variante proyecto"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="14sp"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/xtiempo_proyecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/raleway_light"
+                    android:gravity="center_horizontal"
+                    android:padding="1dp"
+                    android:text="tiempo proyecto"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="14sp"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/xID_proyecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/raleway_light"
+                    android:gravity="center_horizontal"
+                    android:padding="1dp"
+                    android:text="ID proyecto"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="14sp"
+
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

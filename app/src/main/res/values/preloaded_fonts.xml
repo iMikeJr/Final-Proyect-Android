@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro</item>
+        <item>@font/alegreya_sans_sc</item>
+        <item>@font/amatic_sc</item>
+        <item>@font/baloo</item>
+        <item>@font/bubbler_one</item>
+        <item>@font/cinzel_bold</item>
+        <item>@font/raleway_light</item>
+    </array>
+</resources>

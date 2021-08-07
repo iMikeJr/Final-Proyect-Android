@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadomodel2fondo"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".form_Agregar_empleado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:background="@drawable/circleagregar" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <EditText
+            android:id="@+id/FRMnombre_empleado"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniusere"
+            android:elevation="5dp"
+            android:fontFamily="@font/raleway_light"
+            android:hint=" Nombre"
+            android:inputType="text"
+            android:maxLength="15"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+
+            />
+
+        <EditText
+            android:id="@+id/FRMcorreo_empleado"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/minimail"
+            android:elevation="5dp"
+            android:fontFamily="@font/raleway_light"
+            android:hint=" Correo"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:soundEffectsEnabled="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/FRMedad_empleado"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniage"
+            android:elevation="5dp"
+            android:fontFamily="@font/raleway_light"
+            android:hint=" Edad"
+            android:inputType="number"
+            android:maxLength="2"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/FRMRFC_empleado"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/minirfc"
+            android:elevation="5dp"
+            android:fontFamily="@font/raleway_light"
+            android:hint=" RFC"
+            android:inputType="text"
+            android:maxLength="13"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/FRMprimary_keys"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/formmodel"
+            android:drawableLeft="@drawable/miniid"
+            android:elevation="5dp"
+            android:fontFamily="@font/raleway_light"
+            android:hint=" Id de empleado"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/formatsubmit"
+            android:fontFamily="@font/raleway_light"
+            android:inputType="number"
+            android:text="Registrar"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
